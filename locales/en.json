@@ -1,0 +1,13 @@
+{
+	"invalid token": "invalid token",
+	"no token provided": "no token provided",
+	"No es posible devolver la lista de tags": "It is not possible to return the list of tags",
+	"No es posible crear un anuncio": "It is not possible to create an ad",
+	"No es posible modificar un anuncio": "It is not possible to modify an ad",
+	"No es posible devolver la lista de anuncios": "It is not possible to return the list of ads",
+	"No es posible modificar el usuario": "It is not possible to change the user",
+	"No es posible autenticar al usuario, póngase en contacto con el administrador.": "It is not possible to authenticate the user, please contact the administrator.",
+	"invalid credentials": "invalid credentials",
+	"No es posible registrar al usuario, póngase en contacto con el administrador.": "It is not possible to register the user, please contact the administrator.",
+	"No existen anuncios para su criterio de búsqueda": "There are no ads for your search criteria"
+}
