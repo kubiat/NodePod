@@ -114,7 +114,7 @@ You must send via POST the following fields to url http://localhost:3000/apiv1/a
 - **venta** (Boolean) Define whether it is for sale or for search
 - **tagas** (Array) Define tags for Ad
 - **token** he one obtained in the user's authentication
-- (optional) **lang** To play errors in the desired language (es/en) 
+- (optional) **lang** To display errors in the desired language (es/en) 
 #### Update ads 
 You must send via PUT the following fields to url http://localhost:3000/apiv1/anuncios/**__Id field of Ad in collection anuncios of MONGODB** : 
 ```
@@ -126,7 +126,7 @@ http://localhost:3000/apiv1/anuncios/5b3e4dec4912db88ebebd398
 - **venta** (Boolean) Define whether it is for sale or for search
 - **tagas** (Array) Define tags for Ad
 - **token** he one obtained in the user's authentication
-- (optional) **lang** To diplay errors in the desired language (es/en) 
+- (optional) **lang** To display errors in the desired language (es/en) 
 ## Acknowledgements
 Thanks to the ([keepcoding team](https://keepcoding.io/es/))
 and especially to ([Javier](https://github.com/jamg44))f or teaching me this technology.
