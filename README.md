@@ -71,13 +71,13 @@ http://localhost:3000/apiv1/anuncios?tags=work&lang=es&token=xxxxxxxxxxx
 ```shell
 http://localhost:3000/apiv1/anuncios?token=xxxxxxxxxxx
 ```
-##### Filters
+**Filters**
  You can pass the following parameters in querystring:
- -**nombre** Name off Ad. It is enough to put part of the beginning of the Ad.
+ - **nombre** Name off Ad. It is enough to put part of the beginning of the Ad.
 ```
 http://localhost:3000/apiv1/anuncios?nombre=ip&token=xxxxxxxxxxx
 ```
--**tags**
+- **tags**
 ```
 http://localhost:3000/apiv1/anuncios?tags=work&token=xxxxxxxxxxx
 ```
@@ -129,5 +129,5 @@ http://localhost:3000/apiv1/anuncios/5b3e4dec4912db88ebebd398
 - **token** he one obtained in the user's authentication
 - (optional) **lang** To play errors in the desired language (es/en) 
 ## Acknowledgements
-Thanks to the ([keepcoding team ](https://nodejs.org/api/http.html#http_class_http_incomingmessage))
+Thanks to the ([keepcoding team ](keepcoding.io))
 and especially to ([Javier](https://github.com/jamg44))f or teaching me this technology.
