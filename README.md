@@ -1,6 +1,4 @@
 # NODEPOD
-===
-
 ## Description
 This API allows registered users to view purchase/sale ads.
 
@@ -8,7 +6,8 @@ This API allows registered users to view purchase/sale ads.
 Previously we must have installed nodejs and the express framework
 
 Clone this repo
-```git clone https://github.com/kubiat/NodePod
+```
+git clone https://github.com/kubiat/NodePod
 ```
 Install dependencies with:
 ```shell
@@ -129,5 +128,5 @@ http://localhost:3000/apiv1/anuncios/5b3e4dec4912db88ebebd398
 - **token** he one obtained in the user's authentication
 - (optional) **lang** To play errors in the desired language (es/en) 
 ## Acknowledgements
-Thanks to the ([keepcoding team ](keepcoding.io))
+Thanks to the ([keepcoding team](keepcoding.io))
 and especially to ([Javier](https://github.com/jamg44))f or teaching me this technology.
