@@ -148,4 +148,4 @@ http://localhost:3000/apiv1/anuncios/5b3e4dec4912db88ebebd398
 - (optional) **lang** To display errors in the desired language (es/en) 
 ## Acknowledgements
 Thanks to the ([keepcoding team](https://keepcoding.io/es/))
-and especially to ([Javier](https://github.com/jamg44))f or teaching me this technology.
+and especially to ([Javier](https://github.com/jamg44)) for teaching me this technology.
