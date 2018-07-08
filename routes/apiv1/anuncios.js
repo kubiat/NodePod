@@ -2,7 +2,6 @@ const express = require('express');
 const router = express.Router();
 const Anuncio = require('../../models/Anuncio');
 const jwtAuth = require('../../lib/jwtAuth');
-//const i18n = require("./loadI18n");
 /**
  * GET /
  * Recupera una lista de anuncios
@@ -68,9 +67,6 @@ router.get('/', jwtAuth(), async (req, res, next) => {
  */
 router.get('/tags', jwtAuth(), async (req, res, next) => {
     try {
-
-
-
         Anuncio.find().distinct('tags', function (error, tags) {
             try {
                 res.json({ success: true, result: tags });
@@ -92,7 +88,6 @@ router.get('/tags', jwtAuth(), async (req, res, next) => {
  */
 router.post('/', jwtAuth(), async (req, res, next) => {
     try {
-
         // creamos un agente en memoria
         const anuncio = new Anuncio(req.body);
         // version async/await

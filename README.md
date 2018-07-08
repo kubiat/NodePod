@@ -1,7 +1,24 @@
 # NODEPOD
 ## Description
 This API allows registered users to view purchase/sale ads.
-
+All requests to the app will return a json.
+```
+{
+    success: true,
+    result: [
+        {
+            tags: [
+                "lifestyle"
+            ],
+            _id: "5b3fbf671126672e0b51d049",
+            nombre: "Bicleta tamaño xl",
+            venta: true,
+            precio: 25.45,
+            foto: "images/anuncios/bici.jpg"
+        }
+    ]
+}
+```
 ## Instalation
 Previously we must have installed nodejs and the express framework
 
