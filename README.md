@@ -35,7 +35,9 @@ Run the import script with the sample data.
 npm rum installDB
 ```
 **Before running the script with the test data, make sure you have the correct path to your MONGODB installation.  This path is set in the scripts=>installDB section of the package.json file**
- "installDB": "**../../../Downloads/mongodb/bin/mongo** localhost:27017/nodepod ./script.js"
+
+"installDB": "**../../../Downloads/mongodb/bin/mongo** localhost:27017/nodepod ./script.js"
+
 ### Mongdb
 This application use mongo db. To start Mongo DB you can use    
 ```SHELL
