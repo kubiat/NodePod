@@ -6,7 +6,7 @@
     "start": "node ./bin/www",
     "cluster": "node ./bin/cluster",
     "dev": "cross-env DEBUG=nodepod:* nodemon ./bin/www",
-    "installDB": "../../../Downloads/mongodb/bin/mongo localhost:27017/nodepod ./script.js"
+    "installDB": "mongo localhost:27017/nodepod ./script.js"
   },
   "dependencies": {
     "basic-auth": "^2.0.0",
