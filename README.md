@@ -19,6 +19,18 @@ All requests to the app will return a json.
     ]
 }
 ```
+
+## NOTES TO kasappeal
+ACCESS DATA TO EVALUATE THE PRACTICE OF DEVOPS
+
+### EXERCISE 1
+**URL STATIC FILE:** https://practicawebops.webcor.es/images/anuncios/bici.jpg
+
+### EXERCISE 2
+**IP:** http://18.209.151.145/
+
+IF YOU WANT TO TEST THE APP YOU MUST REPLACE http://localhost:3000 WITH https://practicawebops.webcor.es/ IN ALL EXAMPLE LINKS
+
 ## Instalation
 Previously we must have installed nodejs and the express framework
 
